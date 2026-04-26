@@ -1,0 +1,151 @@
+# ═══════════════════════════════════════════════
+# robots.txt — Quilt Carat
+# https://www.quiltcarat.com
+# Updated: 2025-04-26
+# ═══════════════════════════════════════════════
+
+
+# ───────────────────────────────────────────────
+# ALLOW ALL MAJOR SEARCH ENGINE CRAWLERS
+# ───────────────────────────────────────────────
+
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 2
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-Mobile
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 5
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 5
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 5
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 10
+
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 10
+
+User-agent: facebot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+
+# ───────────────────────────────────────────────
+# BLOCK AI TRAINING CRAWLERS
+# ───────────────────────────────────────────────
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: YouBot
+Disallow: /
+
+User-agent: Omgilibot
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+
+# ───────────────────────────────────────────────
+# BLOCK MALICIOUS / SPAM BOTS
+# ───────────────────────────────────────────────
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: DataForSeoBot
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+
+# ───────────────────────────────────────────────
+# DEFAULT — ALLOW EVERYTHING ELSE
+# ───────────────────────────────────────────────
+
+User-agent: *
+Allow: /
+Crawl-delay: 10
+
+# Block any future admin or private paths
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /drafts/
+Disallow: /*.env
+Disallow: /*.config
+Disallow: /*.json$
+Disallow: /node_modules/
+
+
+# ───────────────────────────────────────────────
+# ALLOW STATIC ASSETS & IMAGES
+# ───────────────────────────────────────────────
+
+Allow: /images/
+Allow: /css/
+Allow: /js/
+
+
+# ───────────────────────────────────────────────
+# SITEMAP
+# ───────────────────────────────────────────────
+
+Sitemap: https://www.quiltcarat.com/sitemap.xml
