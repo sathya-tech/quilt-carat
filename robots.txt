@@ -1,6 +1,6 @@
 # ═══════════════════════════════════════════════
 # robots.txt — Quilt Carat
-# https://www.quiltcarat.com
+# https://www.quiltcarat.in
 # Updated: 2025-04-26
 # ═══════════════════════════════════════════════
 
@@ -148,4 +148,4 @@ Allow: /js/
 # SITEMAP
 # ───────────────────────────────────────────────
 
-Sitemap: https://www.quiltcarat.com/sitemap.xml
+Sitemap: https://www.quiltcarat.in/sitemap.xml
